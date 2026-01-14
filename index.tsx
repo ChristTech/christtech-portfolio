@@ -289,7 +289,7 @@ const Hero = () => {
             Available for new projects
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-black leading-[0.9] tracking-tighter text-white">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black leading-[0.9] tracking-tighter text-white">
             Building <br />
             <span className="gradient-text">Intelligent</span> <br />
             Systems.
@@ -470,7 +470,7 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
           <div className="space-y-4">
             <h2 className="text-xs font-black text-blue-500 uppercase tracking-[0.4em]">Portfolio</h2>
-            <h3 className="text-5xl md:text-7xl font-black tracking-tighter text-white">Latest <span className="gradient-text">Projects.</span></h3>
+            <h3 className="text-3xl sm:text-5xl md:text-7xl font-black tracking-tighter text-white">Latest <span className="gradient-text">Projects.</span></h3>
           </div>
           <p className="text-gray-400 max-w-md font-medium leading-relaxed">
             Building intelligent systems that combine machine learning, robotics, and cutting-edge software engineering.
@@ -535,7 +535,7 @@ const Skills = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20 space-y-6">
           <h2 className="text-xs font-black text-blue-500 uppercase tracking-[0.4em]">Capabilities</h2>
-          <h3 className="text-5xl md:text-6xl font-black text-white">Technical <span className="gradient-text">DNA.</span></h3>
+          <h3 className="text-3xl sm:text-5xl md:text-6xl font-black text-white">Technical <span className="gradient-text">DNA.</span></h3>
         </div>
 
         <div ref={ref as any} className={`grid md:grid-cols-3 gap-8 reveal ${isVisible ? 'visible' : ''}`}>
@@ -613,11 +613,11 @@ const Contact = () => {
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-blue-500/20 to-transparent"></div>
 
       <div className="container mx-auto px-6">
-        <div className="glass rounded-[3.5rem] p-10 md:p-20 grid lg:grid-cols-2 gap-20 items-center relative overflow-hidden border border-white/5">
+        <div className="glass rounded-2xl sm:rounded-[3.5rem] p-6 sm:p-10 md:p-20 grid lg:grid-cols-2 gap-10 sm:gap-20 items-center relative overflow-hidden border border-white/5">
           <div className="space-y-10 relative z-10">
             <div className="space-y-4">
               <h2 className="text-xs font-black text-blue-500 uppercase tracking-[0.4em]">Get in touch</h2>
-              <h3 className="text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
+              <h3 className="text-3xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
                 Let's build <br />
                 the <span className="gradient-text">Future.</span>
               </h3>
@@ -766,7 +766,7 @@ const App = () => {
         <div className="flex flex-col lg:flex-row gap-24 items-center">
           <div className="flex-1 space-y-10 order-2 lg:order-1">
             <h2 className="text-xs font-black text-blue-500 uppercase tracking-[0.4em]">About CHRISTTech</h2>
-            <h3 className="text-5xl md:text-7xl font-black tracking-tighter text-white">Driven by <br />Innovation <span className="gradient-text">& AI.</span></h3>
+            <h3 className="text-3xl sm:text-5xl md:text-7xl font-black tracking-tighter text-white">Driven by <br />Innovation <span className="gradient-text">&amp; AI.</span></h3>
             <div className="space-y-6 text-gray-400 text-lg md:text-xl font-medium leading-relaxed">
               <p>
                 I am a passionate robotics engineer who aims to develop robotics systems that work seamlessly with artificial intelligence to help people, especially in the health sector.
