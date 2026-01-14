@@ -612,9 +612,9 @@ const Contact = () => {
     <section id="contact" className="py-32 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-blue-500/20 to-transparent"></div>
 
-      <div className="container mx-auto px-6">
-        <div className="glass rounded-2xl sm:rounded-[3.5rem] p-6 sm:p-10 md:p-20 grid lg:grid-cols-2 gap-10 sm:gap-20 items-center relative overflow-hidden border border-white/5">
-          <div className="space-y-10 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="glass rounded-xl sm:rounded-2xl md:rounded-[3.5rem] p-4 sm:p-6 md:p-10 lg:p-20 grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-20 items-center relative overflow-hidden border border-white/5">
+          <div className="space-y-6 sm:space-y-10 relative z-10">
             <div className="space-y-4">
               <h2 className="text-xs font-black text-blue-500 uppercase tracking-[0.4em]">Get in touch</h2>
               <h3 className="text-3xl sm:text-5xl md:text-7xl font-black tracking-tighter leading-tight text-white">
@@ -623,36 +623,36 @@ const Contact = () => {
               </h3>
             </div>
 
-            <p className="text-gray-400 text-lg md:text-xl font-medium leading-relaxed max-w-md">
+            <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-relaxed max-w-md">
               Whether you have a groundbreaking idea or just want to discuss the latest tech stack, my door is always open.
             </p>
 
-            <div className="space-y-8 pt-4">
-              <div className="flex items-center gap-6 group">
-                <div className="w-14 h-14 rounded-2xl glass flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Mail className="text-blue-400" />
+            <div className="space-y-4 sm:space-y-6 md:space-y-8 pt-4">
+              <div className="flex items-center gap-3 sm:gap-6 group">
+                <div className="w-10 h-10 sm:w-14 sm:h-14 rounded-2xl glass flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
+                  <Mail className="text-blue-400" size={18} />
                 </div>
-                <div>
+                <div className="min-w-0 flex-1">
                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest">Email Address</p>
-                  <p className="text-xl font-bold text-white">adebisivictor39@gmail.com</p>
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white break-all">adebisivictor39@gmail.com</p>
                 </div>
               </div>
-              <div className="flex items-center gap-6 group">
-                <div className="w-14 h-14 rounded-2xl glass flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Phone className="text-green-400" />
+              <div className="flex items-center gap-3 sm:gap-6 group">
+                <div className="w-10 h-10 sm:w-14 sm:h-14 rounded-2xl glass flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
+                  <Phone className="text-green-400" size={18} />
                 </div>
-                <div>
+                <div className="min-w-0 flex-1">
                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest">WhatsApp</p>
-                  <a href="https://wa.me/2349018114203" target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-white hover:text-green-400 transition-colors">Chat on WhatsApp</a>
+                  <a href="https://wa.me/2349018114203" target="_blank" rel="noopener noreferrer" className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white hover:text-green-400 transition-colors break-words">Chat on WhatsApp</a>
                 </div>
               </div>
-              <div className="flex items-center gap-6 group">
-                <div className="w-14 h-14 rounded-2xl glass flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Globe className="text-purple-400" />
+              <div className="flex items-center gap-3 sm:gap-6 group">
+                <div className="w-10 h-10 sm:w-14 sm:h-14 rounded-2xl glass flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
+                  <Globe className="text-purple-400" size={18} />
                 </div>
-                <div>
+                <div className="min-w-0 flex-1">
                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-widest">Location</p>
-                  <p className="text-xl font-bold text-white">Remote</p>
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white">Remote</p>
                 </div>
               </div>
             </div>
@@ -674,7 +674,7 @@ const Contact = () => {
                 </button>
               </div>
             ) : (
-              <form ref={formRef} onSubmit={handleSubmit} className="glass p-10 md:p-12 rounded-[2.5rem] border border-white/5 shadow-2xl space-y-6">
+              <form ref={formRef} onSubmit={handleSubmit} className="glass p-4 sm:p-6 md:p-10 lg:p-12 rounded-xl sm:rounded-2xl md:rounded-[2.5rem] border border-white/5 shadow-2xl space-y-4 sm:space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-3">
                     <label className="text-[10px] font-black text-gray-500 uppercase tracking-widest">Name</label>
